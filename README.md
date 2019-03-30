@@ -40,7 +40,7 @@ Setup/usage: https://www.fireeye.com/services/freeware/redline.html
 ### Rekall
 My rating: **** / 5 <br><br>
 Rekall is particularly cool because it is basically not at all platform dependent; it runs on anything that can run any version (2 or 3) of Python. It's widespread usability makes this framework standout! It actually has expanded recently, as well; it started life justa s a memory analysis tool and, now, is an entire, open-source suite of data forensics tools.<br><br>
-To use this tool: http://www.rekall-forensic.com/
+To use this tool: http://www.rekall-forensic.com/ <br><br>
 Setup/usage: https://github.com/google/rekall
 
 ## NETWORK ANALYSIS
