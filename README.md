@@ -1,6 +1,6 @@
 # PERSONAL FORENSICS TOOLKIT
 
-## Memory Analysis
+## MEMORY ANALYSIS
 ### OSXmem
 ### Hexdump
 ### LiMe
@@ -9,7 +9,7 @@
 ### Redline
 ### Rekall
 
-## Network Analysis
+## NETWORK ANALYSIS
 ### TCPDump
 ### Wireshark
 ### Ngrep
@@ -20,7 +20,7 @@
 ### WinPCap
 ### Security Onion
 
-## Drive Analysis
+## IMAGE ANALYSIS
 ### FTK Suite / FTK Imager
 ### Autopsy
 ### WinPreFetch
