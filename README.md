@@ -20,9 +20,28 @@ To use this tool: ```insmod ./lime.ko "path=<outfile | tcp:<port>> format=<raw|p
 Setup/usage: https://directory.fsf.org/wiki/LiME
 
 ### Netcat
+My rating: *** / 5 <br><br>
+This tool is used for moving files directly from one host to another, across the network. Used in conjunction with LiMe, forensic investigators are able to caputre live memory dumps remotely and then access them on their own host computer. I gave this tool a 3 because, while it is handy to use after you have it set up and are familiar with it, its documentation was a bit difficult to pick up on for first time users. <br><br>
+To use this tool: [depends on the OS] https://kapeli.com/cheat_sheets/Netcat.docset/Contents/Resources/Documents/index <br><br>
+Setup/usage: http://netcat.sourceforge.net/
+
 ### Volatility
+My rating: ** / 5 <br><br>
+This is kind of the industry standard tool used for memory capture analysis, as far as I can tell. However, I only gave it a 2 because I had an incredibly difficult time getting this setup; it appears that the windows .exe installer fails to install this tool correctly, and it must be installed via the choco installer. After getting this setup, it is a pretty handy tool to be able to view processes and threads, if it works.<br><br>
+To use this tool: python vol.py --info <br><br>
+Setup/usage: https://github.com/volatilityfoundation/volatility
+
 ### Redline
+My rating: *** / 5 <br><br>
+This is a GUI based tool from FireEye that allows for pretty easy file and memory analysis. This tool does have a really handy feature that allows for an easy way to make a timeline from various logs and events. However, this tool is a bit annoying in that, to get the actual download link, you have to sign up for Redline's email list.<br><br>
+To use this tool: https://resources.infosecinstitute.com/memory-analysis-using-redline/#gref<br><br>
+Setup/usage: https://www.fireeye.com/services/freeware/redline.html
+
 ### Rekall
+My rating: **** / 5 <br><br>
+Rekall is particularly cool because it is basically not at all platform dependent; it runs on anything that can run any version (2 or 3) of Python. It's widespread usability makes this framework standout! It actually has expanded recently, as well; it started life justa s a memory analysis tool and, now, is an entire, open-source suite of data forensics tools.<br><br>
+To use this tool: http://www.rekall-forensic.com/
+Setup/usage: https://github.com/google/rekall
 
 ## NETWORK ANALYSIS
 ### TCPDump
