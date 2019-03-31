@@ -88,49 +88,37 @@ Setup/usage: https://www.wireshark.org/
 
 ## IMAGE ANALYSIS
 ### Autopsy
-My rating: / 5 <br><br>
-INSERT SUMMARY<br><br>
-To use this tool: <br><br>
-Setup/usage: 
+My rating: **** / 5 <br><br>
+Autopsy is a great tool for analyzing image files, but isn't capable of making said image files. One other drawback is that Autopsy's file analysis takes forever and ends up with many false positives on the credit card data category; it can't be trusted to autonomously do all analysis, basically. It is helpful in dividing up various files into their types, however, and is very user-friendly.<br><br>
+To use this tool: https://www.sleuthkit.org/sleuthkit/docs.php<br><br>
+Setup/usage: https://www.sleuthkit.org/autopsy/
 
 ### Event2Timeline
-My rating: / 5 <br><br>
-INSERT SUMMARY<br><br>
-To use this tool: <br><br>
-Setup/usage: 
+My rating: *** / 5 <br><br>
+This is a very handy tool for dividing up specific log files into a timeline. It's pretty straight-forward to setup (they've even made it easy to install dependencies!) and has decent enough documentation to be able to understand how to use it quickly. Its downside is that it cannot parse all types of log files contained in a computer image file.<br><br>
+To use this tool: ```event2timeline.py -c -f csv_filename.csv```<br><br>
+Setup/usage: https://github.com/certsocietegenerale/event2timeline/blob/master/event2timeline.py
 
 ### EventViewer
-My rating: / 5 <br><br>
-INSERT SUMMARY<br><br>
-To use this tool: <br><br>
-Setup/usage: 
+My rating: **** / 5 <br><br>
+This tool, which comes as part of Windows, is incredibly handy when going through event logs. It doesn't have the most easy-to-understand user interface, but, once you understand how it's laid out, this becomes an incredibly handy tool. This tool makes it easy to manually look through event logs, however, it doesn't do any of the analysis for you.<br><br>
+To use this tool: Open it in Windows.<br><br>
+Setup/usage: https://www.howtogeek.com/123646/htg-explains-what-the-windows-event-viewer-is-and-how-you-can-use-it/
 
 ### FTK Suite / FTK Imager
-My rating: / 5 <br><br>
-INSERT SUMMARY<br><br>
-To use this tool: <br><br>
-Setup/usage: 
-
-### Pestudio
-My rating: / 5 <br><br>
-INSERT SUMMARY<br><br>
-To use this tool: <br><br>
-Setup/usage: 
-
-### Remnux
-My rating: / 5 <br><br>
-INSERT SUMMARY<br><br>
-To use this tool: <br><br>
-Setup/usage: 
+My rating: **** / 5 <br><br>
+This is a great tool for both computer image analysis and capture. The interface is incredibly straightforward. The imager is free and is easier to get setup than the entire Suite is, but both are very helpful. The Suite does take quite a while to figure out how to get working, though.<br><br>
+To use this tool: https://support.accessdata.com/hc/en-us/articles/204056525-FTK-User-Guide<br><br>
+Setup/usage: https://accessdata.com/products-services/forensic-toolkit-ftk
 
 ### VirusTotal.com
 My rating: / 5 <br><br>
-INSERT SUMMARY<br><br>
-To use this tool: <br><br>
-Setup/usage: 
+This website allows users to upload possibly malicious files/text/urls, and then checks to see if that text/signature/pattern is recognized as a virus in any other antivirus software. It's kept very updated and is straightforward to use, even for a first-time user. It's pretty effective at pointing out what is malicious versus what is probably not malicious.<br><br>
+To use this tool: https://www.virustotal.com/ <br><br>
+Setup/usage: [doesn't require setup]
 
-### WinPreFetch
-My rating: / 5 <br><br>
-INSERT SUMMARY<br><br>
-To use this tool: <br><br>
-Setup/usage: 
+### WinPreFetchView
+My rating: *** / 5 <br><br>
+This isn't the prettiest or most user-friendly tool, but it's efficient at doing its job; this small tool allows users to view the Windows PreFetch files easily and then export the data that they find/choose to export. It doesn't take up a lot of computer resources to do so, either!<br><br>
+To use this tool: https://www.nirsoft.net/utils/win_prefetch_view.html<br><br>
+Setup/usage: https://www.softpedia.com/get/System/System-Info/WinPrefetchView.shtml
