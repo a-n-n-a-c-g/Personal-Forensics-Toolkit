@@ -112,7 +112,7 @@ To use this tool: https://support.accessdata.com/hc/en-us/articles/204056525-FTK
 Setup/usage: https://accessdata.com/products-services/forensic-toolkit-ftk
 
 ### VirusTotal.com
-My rating: / 5 <br><br>
+My rating: ***** / 5 <br><br>
 This website allows users to upload possibly malicious files/text/urls, and then checks to see if that text/signature/pattern is recognized as a virus in any other antivirus software. It's kept very updated and is straightforward to use, even for a first-time user. It's pretty effective at pointing out what is malicious versus what is probably not malicious.<br><br>
 To use this tool: https://www.virustotal.com/ <br><br>
 Setup/usage: [doesn't require setup]
