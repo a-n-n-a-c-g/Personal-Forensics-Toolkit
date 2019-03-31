@@ -1,12 +1,6 @@
 # PERSONAL FORENSICS TOOLKIT
 
 ## MEMORY ANALYSIS
-### OSXpmem
-My rating: ** / 5 <br><br>
-This is a small, command-line based tool that captures the volatile memory on a computer running OSX. While this was a fairly straight-forward tool to use, I find it a little bit annoying that it only really works on the OSX platform. This tool analysis, when done, spits out a .dump file and takes quite a while to run. <br><br>
-To use this tool: ```$ ./osxpmem.app/osxpmem -o <output_dir>```<br><br>
-Setup/usage: https://oscp.tech/apple-mac-memory-forensics-setup/
-
 ### Hexdump
 My rating: *** / 5 <br><br>
 This tool has both a GUI and a command line version. I primarily use it to view/save files in hex, which is especially helpful for converting between encodings, doing memory analysis, and re-engineering various software programs. I gave it a 3/5 stars because the command line tool can be a little less than graceful to use at times, although I have not used the GUI version. <br><br>
@@ -25,11 +19,11 @@ This tool is used for moving files directly from one host to another, across the
 To use this tool: [depends on the OS] https://kapeli.com/cheat_sheets/Netcat.docset/Contents/Resources/Documents/index <br><br>
 Setup/usage: http://netcat.sourceforge.net/
 
-### Volatility
+### OSXpmem
 My rating: ** / 5 <br><br>
-This is kind of the industry standard tool used for memory capture analysis, as far as I can tell. However, I only gave it a 2 because I had an incredibly difficult time getting this setup; it appears that the windows .exe installer fails to install this tool correctly, and it must be installed via the choco installer. After getting this setup, it is a pretty handy tool to be able to view processes and threads, if it works.<br><br>
-To use this tool: python vol.py --info <br><br>
-Setup/usage: https://github.com/volatilityfoundation/volatility
+This is a small, command-line based tool that captures the volatile memory on a computer running OSX. While this was a fairly straight-forward tool to use, I find it a little bit annoying that it only really works on the OSX platform. This tool analysis, when done, spits out a .dump file and takes quite a while to run. <br><br>
+To use this tool: ```$ ./osxpmem.app/osxpmem -o <output_dir>```<br><br>
+Setup/usage: https://oscp.tech/apple-mac-memory-forensics-setup/
 
 ### Redline
 My rating: *** / 5 <br><br>
@@ -43,24 +37,29 @@ Rekall is particularly cool because it is basically not at all platform dependen
 To use this tool: http://www.rekall-forensic.com/ <br><br>
 Setup/usage: https://github.com/google/rekall
 
+### Volatility
+My rating: ** / 5 <br><br>
+This is kind of the industry standard tool used for memory capture analysis, as far as I can tell. However, I only gave it a 2 because I had an incredibly difficult time getting this setup; it appears that the windows .exe installer fails to install this tool correctly, and it must be installed via the choco installer. After getting this setup, it is a pretty handy tool to be able to view processes and threads, if it works.<br><br>
+To use this tool: python vol.py --info <br><br>
+Setup/usage: https://github.com/volatilityfoundation/volatility
+
 ## NETWORK ANALYSIS
-### TCPDump
-### Wireshark
-### Ngrep
 ### Flowgrep
+### Ngrep
+### Security Onion
 ### Snort
 ### Suricata
-### TCPDump 
+### TCPDump
 ### WinPCap
-### Security Onion
+### Wireshark
 
 ## IMAGE ANALYSIS
-### FTK Suite / FTK Imager
 ### Autopsy
-### WinPreFetch
+### Event2Timeline
 ### EventViewer
+### FTK Suite / FTK Imager
 ### Pestudio
 ### Remnux
-### Yara and Loki
-### Event2Timeline
 ### VirusTotal.com
+### WinPreFetch
+### Yara and Loki
