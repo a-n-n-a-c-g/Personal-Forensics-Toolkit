@@ -40,20 +40,20 @@ Setup/usage: https://github.com/google/rekall
 ### Volatility
 My rating: ** / 5 <br><br>
 This is kind of the industry standard tool used for memory capture analysis, as far as I can tell. However, I only gave it a 2 because I had an incredibly difficult time getting this setup; it appears that the windows .exe installer fails to install this tool correctly, and it must be installed via the choco installer. After getting this setup, it is a pretty handy tool to be able to view processes and threads, if it works.<br><br>
-To use this tool: python vol.py --info <br><br>
+To use this tool: ```python vol.py --info``` <br><br>
 Setup/usage: https://github.com/volatilityfoundation/volatility
 
 ## NETWORK ANALYSIS
 ### Flowgrep
 My rating: ***** / 5 <br><br>
 Flowgrep is a combination of tcpflow, tcpkill, and ngrep. It's Python based, so it'll work on pretty much any platform. It's a command-line-based tool that lets you search network traffic just as you're used to searching Linux file systems. I really like this tool!<br><br>
-To use this tool: ./flowgrep OPTIONS [FILTER]<br><br>
+To use this tool: ```./flowgrep OPTIONS [FILTER]```<br><br>
 Setup/usage: https://monkey.org/~jose/software/flowgrep/
 
 ### Ngrep
 My rating: *** /5 <br><br>
 Ngrep is kind of like TCPdump but with the added functionality of letting you search for regex expressions and patterns. This can be pretty helpful if you already know what kind of patterns or signatures you're searching for, but is less helpful if you're hoping for a program that'll tell you which signatures keep appearing.<br><br>
-To use this tool: ngrep -l -q -d eth0 -i "^GET |^POST " tcp and port 80<br><br>
+To use this tool: ```ngrep -l -q -d eth0 -i "^GET |^POST " tcp and port 80```<br><br>
 Setup/usage: http://ngrep.sourceforge.net/usage.html
 
 ### Security Onion
