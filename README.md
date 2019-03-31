@@ -45,21 +45,92 @@ Setup/usage: https://github.com/volatilityfoundation/volatility
 
 ## NETWORK ANALYSIS
 ### Flowgrep
+My rating: ***** / 5 <br><br>
+Flowgrep is a combination of tcpflow, tcpkill, and ngrep. It's Python based, so it'll work on pretty much any platform. It's a command-line-based tool that lets you search network traffic just as you're used to searching Linux file systems. I really like this tool!<br><br>
+To use this tool: ./flowgrep OPTIONS [FILTER]<br><br>
+Setup/usage: https://monkey.org/~jose/software/flowgrep/
+
 ### Ngrep
+My rating: *** /5 <br><br>
+Ngrep is kind of like TCPdump but with the added functionality of letting you search for regex expressions and patterns. This can be pretty helpful if you already know what kind of patterns or signatures you're searching for, but is less helpful if you're hoping for a program that'll tell you which signatures keep appearing.<br><br>
+To use this tool: ngrep -l -q -d eth0 -i "^GET |^POST " tcp and port 80<br><br>
+Setup/usage: http://ngrep.sourceforge.net/usage.html
+
 ### Security Onion
+My rating: *** / 5 <br><br>
+This is an intrusion detection focused operating system, and, when the setup process is completed, it has some really handy tools already incorporated into it. Getting Security Onion setup can be a major pain; it takes quite a while to get through the entire setup process! However, once it's setup properly, this is a really cool tool for spotting patterns and connections in network traffic. <br><br>
+To use this tool: [It's a full OS...]<br><br>
+Setup/usage: https://github.com/Security-Onion-Solutions/security-onion
+
 ### Snort
+My rating: *** / 5 <br><br>
+Snort is a light-weight, open-source, command-line-based intrusion detection/prevention tool. This tool can be a bit difficult to get setup, but it is cool when it finally works. Setup is technically more difficult than Security Onion, but it also takes less time. <br><br>
+To use this tool: [depends on the version; see https://www.snort.org/documents#OfficialDocumentation] <br><br>
+Setup/usage: https://www.snort.org/
+
 ### Suricata
+My rating: **** / 5 <br><br>
+Suricata feels like the much newer version of Snort. It's handy as an intrusion detection/prevention system, and is fairly striaghtforward to use/setup. It also allows multithreaded tasks, which means that processes can execute much faster than they can in Snort. This speed earns Suricata an extra star over Snort. <br><br>
+To use this tool: [for latest instructions: https://suricata-ids.org/docs/]<br><br>
+Setup/usage: https://suricata-ids.org/
+
 ### TCPDump
-### WinPCap
+My rating: ** / 5 <br><br>
+TCPDump just prints out packet content descriptions. It can be handy for glancing through specific packets, but is not the best tool for network and packet analysis anymore. It kind of feels like one of the original network analysis tools that never really got updated.<br><br>
+To use this tool: ```tcpdump [ -AbdDefhHIJKlLnNOpqStuUvxX# ] [ -B buffer_size ]``` <br><br>
+Setup/usage: https://www.tcpdump.org/manpages/tcpdump.1.html
+
 ### Wireshark
+My rating: ***** / 5 <br><br>
+Wireshark is a fantastic tool for both network capture and network traffic analysis, although its drawback is that it isn't the smallest, lightest-weight tool out there. Still, it has a pretty straight-forward graphical interface and is pretty easy to understand and use even for the first time user.<br><br>
+To use this tool: https://www.wireshark.org/docs/<br><br>
+Setup/usage: https://www.wireshark.org/
 
 ## IMAGE ANALYSIS
 ### Autopsy
+My rating: / 5 <br><br>
+INSERT SUMMARY<br><br>
+To use this tool: <br><br>
+Setup/usage: 
+
 ### Event2Timeline
+My rating: / 5 <br><br>
+INSERT SUMMARY<br><br>
+To use this tool: <br><br>
+Setup/usage: 
+
 ### EventViewer
+My rating: / 5 <br><br>
+INSERT SUMMARY<br><br>
+To use this tool: <br><br>
+Setup/usage: 
+
 ### FTK Suite / FTK Imager
+My rating: / 5 <br><br>
+INSERT SUMMARY<br><br>
+To use this tool: <br><br>
+Setup/usage: 
+
 ### Pestudio
+My rating: / 5 <br><br>
+INSERT SUMMARY<br><br>
+To use this tool: <br><br>
+Setup/usage: 
+
 ### Remnux
+My rating: / 5 <br><br>
+INSERT SUMMARY<br><br>
+To use this tool: <br><br>
+Setup/usage: 
+
 ### VirusTotal.com
+My rating: / 5 <br><br>
+INSERT SUMMARY<br><br>
+To use this tool: <br><br>
+Setup/usage: 
+
 ### WinPreFetch
-### Yara and Loki
+My rating: / 5 <br><br>
+INSERT SUMMARY<br><br>
+To use this tool: <br><br>
+Setup/usage: 
