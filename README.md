@@ -18,6 +18,10 @@ To use this tool: ```event2timeline.py -c -f csv_filename.csv```
 Manually look through Windows event logs.
 - https://www.howtogeek.com/123646/htg-explains-what-the-windows-event-viewer-is-and-how-you-can-use-it/
 
+## Fakenet
+Next generation dynamic network analysis tool for malware analysts and penetration testers
+- https://github.com/fireeye/flare-fakenet-ng
+
 ## Flowgrep
 Combination of tcpflow, tcpkill, and ngrep that lets you search network traffic just as you're used to searching Linux file systems. Python based. To use: ```./flowgrep OPTIONS [FILTER]```
 - https://monkey.org/~jose/software/flowgrep/
@@ -63,6 +67,10 @@ File and memory analysis, makes a timeline from various logs and events. To get 
 Entire, open-source suite of data forensics tools.
 - http://www.rekall-forensic.com/
 - https://github.com/google/rekall
+
+## Remnux
+A Linux Toolkit for Reverse-Engineering and Analyzing Malware
+- https://remnux.org/
 
 ## Security Onion
 Intrusion detection focused operating system.
