@@ -1,4 +1,4 @@
-# DATA FORENSICS-SPECIFIC TOOLS
+# DATA FORENSICS TOOLS
 
 ## Autopsy
 Analyzes (doesn't create) image files.
